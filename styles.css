@@ -9,6 +9,35 @@
     grid-template-rows: 15vh 85vh;
 }
 
+.search-icon,
+.bell-icon,
+.cool-emoticon {
+    height: 32px;
+    width: 32px;
+}
+
+.bell-icon,
+.cool-emoticon {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.cool-emoticon-big {
+    height: 60px;
+    width: 60px;
+}
+
+.name {
+    margin-left: 8px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.search-bar {
+    width: 600px;
+    margin-left: 15px;
+}
+
 button {
     width: 75px;
     height: 35px;
@@ -107,6 +136,11 @@ button {
     grid-template-columns: 4fr 1fr;
 }
 
+
+.right-nav {
+    display: flex;
+    align-items: center;
+}
 .bot-nav {
     display: grid;
     grid-template-columns: 5fr 3fr;
