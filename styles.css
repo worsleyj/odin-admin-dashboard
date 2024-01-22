@@ -39,10 +39,17 @@
     font-weight: 900;
 }
 
+h2 {
+    margin: 0;
+}
 .search-bar {
     width: 600px;
     margin-left: 15px;
     background-color: lightgrey;
+}
+
+.search-bar:hover {
+    cursor: text;
 }
 
 button {
@@ -95,11 +102,27 @@ button {
     background-color: #1992d4;
 }
 
-.project,
-.announcement {
+.project {
     background-color: white;
     border-radius: 12px;
     margin: 20px;
+}
+
+.announcement {
+    background-color: white;
+    border-radius: 12px;
+    margin: 20px 40px 0px 0px;
+    padding: 5px;
+}
+
+.announcement-container {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.trending-container {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
 }
 
 .project-1 {
