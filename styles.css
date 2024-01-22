@@ -42,13 +42,15 @@
 .search-bar {
     width: 600px;
     margin-left: 15px;
+    background-color: lightgrey;
 }
 
 button {
-    width: 75px;
+    width: 125px;
     height: 35px;
     border-radius: 25px;
     border-style: none;
+    color: white;
     background-color: #1992d4;
 }
 
@@ -151,6 +153,11 @@ button {
 .right-nav {
     justify-self: end;
     margin-right: 50px;
+}
+
+.greeting-container,
+.search-container {
+    margin-left: 35px;
 }
 
 .bot-nav {
