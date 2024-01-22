@@ -76,12 +76,26 @@ button {
     padding-top: 25px;
 }
 
-.project-1,
-.project-2,
-.project-3,
-.project-4,
-.project-5,
-.project-6,
+.project {
+    display: grid;
+    grid-template-rows: 50px 125px 50px;
+}
+
+.project-buttons {
+    justify-self: end;
+    margin-right: 15px;
+}
+
+.project-buttons > img{
+    height: 35px;
+    width: 35px;
+}
+
+.project-buttons > img:hover {
+    background-color: #1992d4;
+}
+
+.project,
 .announcement {
     background-color: white;
     border-radius: 12px;
