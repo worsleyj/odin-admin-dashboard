@@ -31,8 +31,8 @@ p, h1, h2, h3, h4, h5, h6 {
 /* css reset */
 
 .container {
-    height: 99vh;
-    width: 94vh;
+    height: 100vh;
+    width: 100vw;
     display: grid;
     grid-template: 1fr 5fr / 1fr 3fr
 }
