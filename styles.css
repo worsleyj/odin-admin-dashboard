@@ -75,7 +75,8 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .your-projects > div {
     background-color: grey;
-    height: 95%;
+    height: 100px
+    overflow: hidden;
 }
 
 .search-field {
